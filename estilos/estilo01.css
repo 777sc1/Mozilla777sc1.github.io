@@ -1,0 +1,32 @@
+html {
+	font-family: Acme, Arial;
+	background-color: yellow;
+}
+
+body {
+	width: 80%;
+	margin: 100px auto;
+}
+
+h1, h3, h6 {
+	color: red;
+	background-color: white;
+	text-shadow: 10px 3px 5px gray;
+}
+
+img[src="imagenes/scarecrow.jpg"],
+img[src="imagenes/scarecrow02.jpg"]
+{
+	height: 150px;
+	display: block;
+	margin: 0 auto;
+}
+
+p::first-line {
+	color: red;
+}
+
+p {
+	line-height: 3;
+	letter-spacing: 3px;
+}
